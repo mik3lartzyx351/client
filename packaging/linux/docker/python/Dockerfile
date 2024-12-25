@@ -1,14 +1,6 @@
 ARG BASE_IMAGE=keybaseio/client:latest
 FROM $BASE_IMAGE AS base
 
-FROM python:3.8.2-buster
-LABEL maintainer="Keybase <admin@keybase.io>"
-
-# Combine RUN commands to optimize layers
-RUN apt-get update && \
-    apt-get install -y gnupg2 procps ca-certificates && \
-    rm -rf /var/lib/apt/lists/*
-
 # TINI setup
 ENV TINI_VERSION v0.18.0
 COPY packaging/linux/docker/tini_key.asc /tini_key.asc
