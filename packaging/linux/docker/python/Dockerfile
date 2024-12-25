@@ -27,8 +27,8 @@ RUN curl -fsSL https://github.com/tianon/gosu/releases/download/${GOSU_VERSION}/
 COPY --from=base /usr/bin/entrypoint.sh /usr/bin/entrypoint.sh
 RUN chmod +x /usr/bin/entrypoint.sh
 
-RUN useradd --create-home --shell /bin/bash keybase
-VOLUME [ "/home/keybase/.config/keybase", "/home/keybase/.cache/keybase" ]
+RUN useradd --create-home --shell /bin/bash client
+VOLUME [ "/home/mik3lartzyx351/.config/c", "/home/mik3lartzyx351/.cache/mik3lartzyx351" ]
 
 COPY --from=base /usr/bin/keybase /usr/bin/keybase
 COPY --from=base /usr/bin/keybase.sig /usr/bin/keybase.sig
