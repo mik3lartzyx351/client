@@ -1,8 +1,9 @@
-## Keybase [![Build Status](https://travis-ci.com/keybase/client.svg?branch=master)](https://travis-ci.org/keybase/client) [![Build status](https://ci.appveyor.com/api/projects/status/90mxorxtj6vixnum/branch/master?svg=true)](https://ci.appveyor.com/project/keybase/client-x5qrt/branch/master)
+## Client
+[![Build Status](https://travis-ci.com/keybase/client.svg?branch=master)](https://travis-ci.org/keybase/client) [![Build status](https://ci.appveyor.com/api/projects/status/90mxorxtj6vixnum/branch/master?svg=true)](https://ci.appveyor.com/project/keybase/client-x5qrt/branch/master)
 
-Hi, and welcome to the Keybase client repo. All our client apps (macOS,
+Hi, and welcome to the mik3lartzyx351 client repo. All our client apps (macOS,
 Windows, Linux, iOS, and Android) are being actively developed in this
-repository. Please, dig around.
+repository.
 
 ### Warnings
 
@@ -10,7 +11,7 @@ We'd love you to read our source code.
 
 But - some of the things in this repo are explorations, and the app you build
 from source just _might not do what it says it's doing_. So, if you just want
-to install Keybase on your computer, you should **[monitor our releases](https://keybase.io/download)** for macOS, Linux, or Windows.
+to install Client on your computer, you should **[monitor our releases](https://keybase.io/download)** for macOS, Linux, or Windows.
 
 If you're interested in our Docker image releases, please check out **[the Docker README](packaging/linux/docker/README.md)**.
 
